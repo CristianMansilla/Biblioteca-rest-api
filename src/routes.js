@@ -7,5 +7,6 @@ router.get('/libro', libro.getOne);
 router.get('/libros', libro.getAll);
 router.post('/agregar-libro', libro.add);
 router.put('/editar-libro', libro.update);
-router.delete('/eliminar-libro', libro.delete);
+router.delete('/eliminar-libro-id', libro.deleteId);
+router.delete('/eliminar-libro-isbn', libro.deleteIsbn);
 
